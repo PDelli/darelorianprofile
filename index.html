@@ -1,0 +1,111 @@
+<html>
+<head>
+<header>
+<style>
+@keyframes butt {
+	0% { transform: translate(-300px, 400px); }
+    100% { transform: translate(1000px, -300px); }
+}
+
+@keyframes butt2 {
+	0% { transform: translate(-200px, 800px); }
+    100% { transform: translate(700px, -200px); }
+}
+@keyframes  {
+	0% { transform: translate(-200px, 800px); }
+    100% { transform: translate(700px, -200px); }
+}
+@keyframes butt3 {
+	0% { transform: translate(-200px, 600px); }
+    50% { transform: translate(600px, 400px); }
+    60% { transform: translate(550px, 350px); }
+    100% { transform: translate(1000px, -100px); }
+}
+
+body {
+	overflow: hidden;
+  background-image: url('https://cdn.discordapp.com/attachments/175296135903051777/1188763579667730443/OIG.png?ex=659bb55b&is=6589405b&hm=abf4a4486efeda3685b173bf2a4ffdcbd599155f59499067876eca2b9301b057&');
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.picture{
+	top: 80px;
+    left: 80px;
+	height: 381px;
+    width: 381px;
+    position: absolute;
+    background-image: url(https://cdn.discordapp.com/attachments/175296135903051777/1188740250797867088/OIG.png?ex=659b9fa1&is=65892aa1&hm=d7bcf37aa5cd761b6067d0b811bd746f138980743ee8129b3c6ff7e108ec002f);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.frame{
+	top: -129px;
+    left: -129px;
+	height: 640px;
+    width: 640px;
+    position: relative;
+    background-image: url(https://cdn.discordapp.com/attachments/175296135903051777/1188748966813241394/vine-6184950_1280.png?ex=659ba7bf&is=658932bf&hm=6e41b19719fb3ee6da7b924525e613ba7bb43644f139812b76a5a7c566153697&);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.butterflies{
+	animation-name: butt;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+	height: 200px;
+    width: 200px;
+    position: relative;
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG9seXRyY2V2ZzBkd3dhZjZkNXc1NWtsZHl6eHhpcG1hM2J5Y2x0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/icJHcfQdFQ26hs6bZT/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.butterflies2{
+	animation-name: butt2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+	height: 200px;
+    width: 200px;
+    position: relative;
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG9seXRyY2V2ZzBkd3dhZjZkNXc1NWtsZHl6eHhpcG1hM2J5Y2x0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/icJHcfQdFQ26hs6bZT/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}.butterflies3{
+	animation-name: butt3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+	height: 200px;
+    width: 200px;
+    position: relative;
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG9seXRyY2V2ZzBkd3dhZjZkNXc1NWtsZHl6eHhpcG1hM2J5Y2x0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/icJHcfQdFQ26hs6bZT/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+</style>
+</header>
+</head>
+<body>
+<div class="butterflies"></div>
+<div class="picture">
+<div class="frame">
+<div class="butterflies2"></div>
+<div class="butterflies3"></div>
+
+<div style=position:absolute;bottom:1;right:1;margin:-100;padding:-100;>
+<audio controls autoplay id="myaudio" src=https://cdn.discordapp.com/attachments/175296135903051777/1187676298546524170/40_Baldurs_Gate_3_Original_Soundtrack_-_I_Want_To_Live_Classical_version.mp3 type=audio/mpeg>
+</audio>
+</div>
+
+<script>
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.1;
+</script>
